@@ -1,0 +1,17 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.gouwuhce {
+  width: 100%;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
+.sw {
+  height: 500rpx;
+}
+.sw iamge {
+  width: 100%;
+  height: 100%;
+}
+

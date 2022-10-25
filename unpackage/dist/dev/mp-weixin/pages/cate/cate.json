@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "全栈2202B-徐佳慧",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "search-table": "/components/searchTable/searchTable"
+  }
+}

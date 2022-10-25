@@ -1,0 +1,65 @@
+input {
+  width: 300px;
+  height: 40px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  margin: 0px 10px;
+  text-align: center;
+}
+
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.shang {
+  width: 100%;
+  height: 50px;
+  background-color: #c00000;
+  padding-top: 6px;
+}
+.fu {
+  display: flex;
+  justify-content: space-between;
+}
+.fu .scroll {
+  width: 200px;
+}
+.fu .scroll view {
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+}
+.fu .scroll view.active {
+  background-color: #fff;
+  position: relative;
+}
+.fu .scroll view.active::before {
+  position: absolute;
+  top: 50%;
+  left: 3px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  content: '';
+  width: 5px;
+  height: 20px;
+  background-color: #c00000;
+  display: block;
+}
+.fu .right .top {
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+}
+.fu .right .rightList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.fu .right .rightList .rList {
+  text-align: center;
+}
+.fu .right .rightList .rList image {
+  width: 60px;
+  height: 60px;
+}
+

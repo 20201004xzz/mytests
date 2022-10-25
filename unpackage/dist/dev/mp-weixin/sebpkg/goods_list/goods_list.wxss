@@ -1,0 +1,17 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.list {
+  display: flex;
+}
+.list .lift image {
+  width: 100px;
+  height: 100px;
+}
+.list .right {
+  margin-bottom: 10px;
+}
+.list .right ._span {
+  color: #c00000;
+}
+
